@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin :2rem auto;
+    border: 1px solid black;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    
+}
+.square {
+    width: calc(100% / 10);
+    background-color: red;
+    border: 1px solid black;
+    aspect-ratio: 1;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
