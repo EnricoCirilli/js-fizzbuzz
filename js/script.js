@@ -1,3 +1,61 @@
+const rowElem = document.querySelector(".row");
+console.log("rowElem");
+
+let gridString = "";
+for (let i = 1; i <= 100; i++) {
+    let result = i;
+    if (i % 3 === 0 && i % 5 === 0){
+        result="FizzBuzz";
+    } else if (i % 3 === 0){
+        result = "Buzz";
+    } else if (i % 5 === 0){
+        result = "Fizz";
+
+    } else  
+        result = "";
+    gridString += `<div class="square ${result}">${result}${i}</div>`
+}
+
+rowElem.innerHTML = gridString;
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+for (var i = 1; i <= 100; i++) {
+    var outPut = "";
+
+    if( i % 3 == 0) {
+        outPut += "Fizz";
+    }
+    if( i % 5 == 0) {
+        outPut += "Buzz";
+    }
+    if( i % 3 == 0 && i % 5 === 0) {
+        outPut += "FizzBuzz";
+    }
+
+    if( outPut =="") {
+        outPut += i;
+    }
+}
+
+console.log(outPut);
+
+*/
+
+
+
+
+
 
 //inizializzo con funzione e for loop
 
@@ -13,6 +71,8 @@ function fizzBuzz(num) {
 }
 fizzBuzz(15);
 */
+
+/*
 const rowElem = document.querySelector(".row");
 console.log("rowElem");
 
@@ -32,3 +92,5 @@ for (let i = 1; i <= 100; i++) {
 }
 
 rowElem.innerHTML = gridString;
+*/
+
