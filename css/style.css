@@ -10,25 +10,25 @@ body{
 .container {
     width: 90%;
     margin: 2rem auto;
-    border: 1px solid black;
-    background-color: blueviolet;
-
+   
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
-
+    
 }
 
 .square {
+    margin: 10px;
     width: calc(100% / 10);
     border: 1px solid black;
+    background-color: blueviolet;
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 h1 {
