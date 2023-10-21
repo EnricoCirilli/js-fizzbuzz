@@ -17,7 +17,12 @@ Scrivi un programma che stampi in console i numeri da 1 a 100,
  e  se il numero è diviso per 5 da zero allora stampa Fizzbuzz,
 invece (elsse) se solo il numero diviso 3 da zero stampa fizz, se invece il solo numero diviso per 5 da resto zero allora stampa solo Buzz.
 3. collegare js a html
+
+
+
+
 **Output**
+
 
 
  ![FizzBuzzDOM](FizzBuzzDOM.jpg)
