@@ -25,4 +25,4 @@ invece (elsse) se solo il numero diviso 3 da zero stampa fizz, se invece il solo
 
 
 
- ![FizzBuzzDOM] (FizzBuzzDOM.jpg)
+ ![FizzBuzzDOM](FizzBuzzDOM.jpg)
