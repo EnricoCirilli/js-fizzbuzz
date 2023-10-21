@@ -7,13 +7,13 @@ for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0){
         result="FizzBuzz";
     } else if (i % 3 === 0){
-        result = "Buzz";
-    } else if (i % 5 === 0){
         result = "Fizz";
+    } else if (i % 5 === 0){
+        result = "Buzz";
 
     } else  
-        result = "";
-    gridString += `<div class="square ${result}">${result}${i}</div>`
+        result = "0";
+    gridString += `<div class="square ${result} ">${result}</div>`
 }
 
 rowElem.innerHTML = gridString;
