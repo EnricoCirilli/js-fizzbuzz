@@ -12,7 +12,7 @@ for (let i = 1; i <= 100; i++) {
         result = "Buzz";
 
     } else  
-        result = "0";
+        result = i ;
     gridString += `<div class="square ${result} ">${result}</div>`
 }
 
